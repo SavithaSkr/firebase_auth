@@ -2,7 +2,10 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="flex flex-col max-w-sm m-5 mx-auto mb-4">
+    <div className="flex flex-col max-w-sm px-5 mx-auto mb-4 border rounded shadow appearance-none py-7 m-7">
+      <h2 className="my-5 text-3xl font-bold text-center text-red-600 underline">
+        Login
+      </h2>
       <div className="w-5 mb-4">
         <label className="block mb-2 text-sm font-bold text-gray-600">
           UserName
@@ -12,7 +15,7 @@ const Login = () => {
           type="text"
         />
       </div>
-      <div className="w-5 mb-4">
+      <div className="w-5 py-2 mb-4">
         <label className="block mb-2 text-sm font-bold text-gray-600">
           Password
         </label>{" "}
@@ -21,7 +24,7 @@ const Login = () => {
           className="p-2 border rounded shadow appearance-none "
         />
       </div>
-      <div>
+      <div className="justify-center py-5">
         <button className="items-center justify-between inline-block px-10 py-2 rounded boder-none bg-cyan-400">
           Login
         </button>
